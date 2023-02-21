@@ -13,16 +13,27 @@
     {
       "id": 2,
       "name": "Get some pizza",
-      "done": false
+      "done": true
     },
     {
       "name": "Finish this project",
       "id": 3,
-      "done": false
+      "done": true
     },
     {
       "name": "Feed the dog",
-      "id": 4
+      "id": 4,
+      "done": true
+    },
+    {
+      "name": "Buy churros",
+      "done": true,
+      "id": 5
+    },
+    {
+      "name": "write tests for my app!",
+      "done": false,
+      "id": 6
     }
   ]
 }

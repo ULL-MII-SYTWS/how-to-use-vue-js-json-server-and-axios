@@ -1,7 +1,20 @@
 // Install REST Client VSCode extension to use this file for testing
 @host=http://localhost:3001
 
-// Using npm run start
+// Get all todos
 get {{ host }}/todos
 
+// get first todo
+###
 get {{ host }}/todos/1
+
+// add todo
+###
+post {{ host }}/todos
+Content-Type: application/json
+
+{
+    "name": "write tests for my app!",
+    "done": false
+}
+
