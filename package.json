@@ -2,8 +2,9 @@
   "name": "hello-axios",
   "version": "0.1.0",
   "private": true,
+  "node-version": "echo use v16 of node",
   "scripts": {
-    "db:serve": "json-server --watch db.json --port=3001",
+    "db:serve": "json-server --host 0.0.0.0 --port 3001 --watch db.json",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -21,7 +22,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.1"
   },
   "eslintConfig": {
     "root": true,

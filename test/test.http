@@ -1,0 +1,7 @@
+// Install REST Client VSCode extension to use this file for testing
+@host=http://localhost:3001
+
+// Using npm run start
+get {{ host }}/todos
+
+get {{ host }}/todos/1

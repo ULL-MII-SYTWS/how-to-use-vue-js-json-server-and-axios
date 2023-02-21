@@ -8,7 +8,7 @@
     {
       "id": 1,
       "name": "Walk the dog",
-      "done": false
+      "done": true
     },
     {
       "id": 2,
@@ -19,6 +19,10 @@
       "name": "Finish this project",
       "id": 3,
       "done": false
+    },
+    {
+      "name": "Feed the dog",
+      "id": 4
     }
   ]
 }
